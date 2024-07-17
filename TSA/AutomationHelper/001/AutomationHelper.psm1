@@ -4,3 +4,5 @@ function Get-Greeting {
     )
     return "Hello, $Name!"
 }
+
+Export-ModuleMember -Function Get-Greeting
