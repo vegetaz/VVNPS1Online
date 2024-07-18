@@ -191,9 +191,9 @@ function Get-Project {
 function Write-TaskProgress {
     [CmdletBinding()]
     param(
-        # [Parameter(Mandatory = $true)]
+        [Parameter(Mandatory = $true)]
         [Object] $Caller,
-        # [Parameter(Mandatory = $true)]
+        [Parameter(Mandatory = $true)]
         [Object] $ProgressEventArgs
     )
 
@@ -217,10 +217,10 @@ function Write-TaskProgress {
 function Write-TaskMessage {
     [CmdletBinding()]
     param(
-        # [Parameter(Mandatory = $true)]
+        [Parameter(Mandatory = $true)]
         [Object] $Caller,
         
-        # [Parameter(Mandatory = $true)]
+        [Parameter(Mandatory = $true)]
         [Sdl.ProjectAutomation.Core.TaskMessageEventArgs] $MessageEventArgs
     )
 
@@ -238,7 +238,7 @@ function Write-TaskMessage {
 function Test-Task {
     [CmdletBinding()]
     param (
-        # [Parameter(Mandatory = $true)]
+        [Parameter(Mandatory = $true)]
         [Sdl.ProjectAutomation.Core.AutomaticTask] $taskToValidate
     )
 
