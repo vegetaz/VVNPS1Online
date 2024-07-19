@@ -157,6 +157,22 @@ function Copy-SourceToTarget {
     
 }
 
+function Wait-ForExit {
+    [CmdletBinding()]
+    param ()
+
+    Write-Host "Press 'Q' key to exit..."
+    try {
+        do {
+            $key = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+        } until ($key.Character -eq 'q' -or $key.Character -eq 'Q')
+    }
+    finally {
+        Write-Host "Exited."
+    }
+}
+
 Export-ModuleMember -Function Convert-ExcelToXliff
 Export-ModuleMember -Function Update-ExcelFromXliff
 Export-ModuleMember -Function Copy-SourceToTarget
+Export-ModuleMember -Function Wait-ForExit

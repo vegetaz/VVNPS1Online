@@ -6,6 +6,7 @@
     FunctionsToExport = @(
         'Convert-ExcelToXliff',
         'Update-ExcelFromXliff',
-        'Copy-SourceToTarget'
+        'Copy-SourceToTarget',
+        'Wait-ForExit'
     )
 }
