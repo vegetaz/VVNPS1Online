@@ -5,6 +5,7 @@
     Description = 'XLIFF Helper module'
     FunctionsToExport = @(
         'Convert-ExcelToXliff',
-        'Update-ExcelFromXliff'
+        'Update-ExcelFromXliff',
+        'Copy-SourceToTarget'
     )
 }
