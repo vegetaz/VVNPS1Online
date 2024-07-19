@@ -1,6 +1,6 @@
 @{
     ModuleVersion = '1.0.0'
-    GUID = 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'
+    GUID = '68bba040-1784-4e39-b656-a5091e8533a2'
     Author = 'Nguyễn Văn Vận'
     Description = 'Automation Helper module'
     FunctionsToExport = @(
