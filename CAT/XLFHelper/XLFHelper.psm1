@@ -4,8 +4,8 @@ function Convert-ExcelToXliff {
         [string]$xliffFilePath,
         [string]$sourceCol = "C",
         [string]$targetCol = "D",
-        [string]$sourceLang = "en",
-        [string]$targetLang = "vi"
+        [string]$sourceLang = "en-US",
+        [string]$targetLang = "vi-VN"
     )
 
     # Mở Excel và tải tệp
