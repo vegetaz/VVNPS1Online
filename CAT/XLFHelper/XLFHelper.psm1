@@ -2,8 +2,8 @@ function Convert-ExcelToXliff {
     param (
         [string]$excelFilePath,
         [string]$xliffFilePath,
-        [string]$sourceCol = "A",
-        [string]$targetCol = "B",
+        [string]$sourceCol = "C",
+        [string]$targetCol = "D",
         [string]$sourceLang = "en",
         [string]$targetLang = "vi"
     )
